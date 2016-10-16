@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ChatBotGovil
 {
-/**
+/*
 Created By: Dhruv Govil
 ChatBotProgram --> talks to user!
 Version # : 1
-*/
+**/
 	public static void main (String[] args)
 	{
 
