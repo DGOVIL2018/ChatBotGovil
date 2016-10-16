@@ -2,20 +2,25 @@ import java.util.Scanner;
 
 public class ChatBotGovil
 {
+/**
+Created By: Dhruv Govil
+ChatBotProgram --> talks to user!
+Version # : 1
+*/
 	public static void main (String[] args)
 	{
 
 		Scanner kb = new Scanner(System.in);
 		System.out.print("Please enter your first and last name, or type bye if you dont want to chat: ");
 		String Name = kb.nextLine();
-		if (Name == "bye" || Name == "Bye")
+		if (Name == "bye" || Name == "Bye") //gives user choice to talk or not
 		{
 			System.out.println("Well, ok then, don't talk to me.");
 			System.exit(0);
 		}
 
 
-		while(!(Name.equals("bye") || Name.equals("Bye")))
+		while(!(Name.equals("bye") || Name.equals("Bye"))) //while the user does not say bye, talk to them
 		{
 			System.out.println("Hey " + Name + ". Let us chat!");
 			
